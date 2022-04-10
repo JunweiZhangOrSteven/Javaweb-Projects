@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/login.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login_banner {
+    width: 800px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    opacity: 80%;
+    border: 1px solid black;
+    position: relative;
+    left: -400px;
+    margin: 200px auto;
+    margin-left: 50%;
+    overflow: hidden;
+}
+
+#content {
+    width: 400px;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.msg_cont {
+    height: 30px;
+}
+
+.errorMsg {
+    font-size: 10px;
+    color: red;
+    display: none;
+}
+
+.itxt {
+    height: 30px;
+}
+
+#sub_btn {
+    display: block;
+    width: 50px;
+    margin-left: 160px;
+}

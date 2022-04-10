@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/index.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#welcome {
+    width: 800px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    opacity: 80%;
+    border: 1px solid black;
+    position: relative;
+    left: -400px;
+    margin: 200px auto;
+    margin-left: 50%;
+    overflow: hidden;
+}
+
+#back {
+    width: 200px;
+    height: 80px;
+    margin: 20px auto;
+    font-size: 30px;
+    text-align: center;
+    border: 0;
+    border-bottom: 3px solid brown;
+}
+
+#uname {
+    position: absolute;
+    left: 0;
+    height: 150px;
+    line-height: 150px;
+    font-size: 30px;
+}
+
+#user_name {
+    width: 550px;
+    height: 60px;
+    position: absolute;
+    left: 180px;
+    top: 165px;
+    font-size: 30px;
+}

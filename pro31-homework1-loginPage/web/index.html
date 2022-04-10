@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎界面</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="welcome">
+        <input id="back" type="text" value="欢迎回来！">
+        <div id="uname">您的名字是：</div><input type="text" name="user_name" id="user_name" th:value="${session.currUser.getUname()}">
+    </div>
+</body>
+
+</html>

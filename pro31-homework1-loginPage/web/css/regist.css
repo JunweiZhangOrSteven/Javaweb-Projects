@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/regist.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login_banner {
+    width: 600px;
+    height: 1000px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    opacity: 80%;
+    border: 1px solid black;
+    position: relative;
+    left: -300px;
+    margin: 200px auto;
+    margin-left: 50%;
+    overflow: hidden;
+}
+
+.register_form {
+    width: 400px;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+input {
+    height: 30px;
+    font-size: 20px;
+}
+
+.form-item {
+    height: 70px;
+}
+
+#unameSpan{
+    font-size: 10px;
+    color: red;
+    visibility: hidden;
+}
+#pwdSpan{
+    font-size: 10px;
+    color: red;
+    visibility: hidden;
+}
+#pwdSpan2{
+    font-size: 10px;
+    color: red;
+    visibility: hidden;
+}
+#emailSpan{
+    font-size: 10px;
+    color: red;
+    visibility: hidden;
+}
+
+
+
+/*.errMess {*/
+/*    font-size: 10px;*/
+/*    color: red;*/
+/*    display: none;*/
+/*}*/
+
+#verify_inp {
+    width: 200px;
+}
+
+.btn {
+    display: block;
+    width: 60px;
+    margin-top: 40px;
+    margin-left: 170px;
+}
